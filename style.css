@@ -1,0 +1,86 @@
+body {
+	background-image:url("pattern.png")
+}
+
+img{
+	float:left;
+}
+
+div	{
+	border:8px solid black;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	background-image:url("text-pattern.png")
+}
+
+.header {
+	text-align:center;
+	padding: 8px;
+	background-image:url("text-pattern.png")
+    font-family:"Luminari",fantasy;
+}
+
+.topnav {
+	overflow:hidden;
+	background-color:#F1F1F1;
+	width:100%;
+}
+.topnav a {
+	float:center;
+	display:inline;
+	padding:212px;
+	text-decoration:none;
+	font-family:"Times New Roman", Times, serif;
+	font-size:22px;
+}
+
+ p {
+	text-align:center;
+	padding:8px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+    background-image:url("text-pattern.png")
+}
+
+.topnav a:hover{
+	background-color: #002F00;
+	color: #ddd;
+}
+
+.footer{
+    display: block;
+	text-align: center;
+	Padding: 10px;
+    background-image:url("text-pattern.png")
+    font-family:"Times New Roman", Times, serif;
+    font-size: 18px;
+    
+}
+table, th, td{
+	border: 1px solid black;
+    text-align:center;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.left, .right {
+    width: 20%;
+}
+
+.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
